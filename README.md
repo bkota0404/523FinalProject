@@ -5,16 +5,16 @@ The main objective of the project is to detect driver distractions using images 
 ## Dataset
 The image dataset is publicly avaiable for training on Kaggle: https://www.kaggle.com/competitions/state-farm-distracted-driver-detection
 
-As the test dataset labels are not publicly available, we used 10% of train dataset for testing. To partition the dataste, we tried randomly shuffling the dataset and picking equal proportions of images from the 10 classes used. But to measure the models performance more accurately, we decide to completely remove the images corresponding to two drivers from the training and use for testing. The train and test dataset can be found on the below link.
+As the test dataset labels are not publicly available, we used 10% of train dataset for testing. To partition the dataste, we tried randomly shuffling the dataset and picking equal proportions of images from the 10 classes used. But to measure the models performance more accurately, we decide to completely remove the images corresponding to two drivers from the training and use for testing. The train(folder: 'train') and test dataset(folder: 'TestData') can be found on the below link.
 
-Training Data: https://drive.google.com/drive/folders/1cUG6jYCEPZNrHF4RGU4aA86XDk6ie5QF?usp=sharing
+Datasets: https://drive.google.com/drive/folders/1aF0ROvRmQAhEhrbpSO7Kgm-hkRSIWJp_?usp=sharing
 
-Test Data: https://drive.google.com/drive/folders/1W55URzNIsP61xEoK5HPtsDu4eOCanTWL?usp=sharing
+
 
 ## Running the scripts:
-Download the train and test datasets into folders named 'train' and 'TestData' and replace the variable 'filepath' in the ipynb notebooks pointing to the path of the above mentioned folders. Place the file 'driver_imgs_list.csv' in the same folder as of train and TestData which available at: https://drive.google.com/file/d/1EYkL5xgYvUG961Vs6AK2hkRaZqLdu4tk/view?usp=sharing. These folders are to be available on google drive for execution.
 
-Once the data is setup all the models can be run using google colab(tested). 
+### AlexNet & VGG-16:
+Make sure 'driver_imgs_list.csv' is in the same folder as of train and TestData which is available in the same location as of datasets. Replace the variable 'filepath' in the ipynb notebooks pointing to the path containing the 'train', 'TestData' folders and the csv file. Once the data is setup, the models can be run using google colab(tested). 
 
 ## References
 https://www.sciencedirect.com/science/article/pii/S1568494620305950?via%3Dihub <br />
