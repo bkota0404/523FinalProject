@@ -51,7 +51,8 @@ Note: Would create duplicate folders which are already shared via link as part o
 
 	a. Please open google colab using https://research.google.com/colaboratory/ link.
 	b. Then upload the ResNet.ipynb notebook using the Upload tab.
-	c. Then click on Runtime>Run All. Please confirm the Google drive access during the run of the notebook.
+	c. Update the variable ‘shared_filepath’ with the location containing the Data folder shared. (refer to 2 & 3 for details on how to add the shared folder and modify the path)
+	d. Then click on Runtime>Run All. Please confirm the Google drive access during the run of the notebook.
 
 
 #### Run InceptionV3(2).ipynb (Keras Implementation)
@@ -70,7 +71,8 @@ Note: Would create duplicate folders which are already shared via link as part o
 
 	a. Please open google colab using https://research.google.com/colaboratory/ link. 
 	b. Then upload the InceptionV3_Pytorch.ipynb notebook using the Upload tab.
-	c. Then click on Runtime>Run All. Please confirm the Google drive access during the run of the notebook.
+	c. Update the variable ‘shared_filepath’ with the location containing the Data folder shared. (refer to 2 & 3 for details on how to add the shared folder and modify the path)
+	d. Then click on Runtime>Run All. Please confirm the Google drive access during the run of the notebook.
 
 
 #### Run AlexNet.ipynb
