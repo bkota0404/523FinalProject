@@ -35,15 +35,15 @@ Click Add shortcut.
 Note: The shared drive needs to be added as a shortcut to the 'My Drive' folder, otherwise the files will not be able to run. 
 
 
-3) How to run DataProcessing.ipynb
+3) Run DataProcessing.ipynb
 The main purpose of this file is to extract the images from train.zip and split it into train and test datasets based on individual drivers.
 Note: Would create duplicate folders which are already shared via link as part of the dataset. Also, manual intervention might be required incase of folder creation(comments added in the .ipynb file)
 
 
-1. But if required, please open google colab using https://research.google.com/colaboratory/ link. Then upload the DataProcessing.ipynb notebook using the Upload tab.
-2. Variable ‘filepath’ declared in the notebook needs to be modified to point to the location where the shortcut to ‘Data’ folder has been added, including the Data. F.E: if the shortcut has been added to the path ‘/content/MyDrive’, ‘filepath’ variable must be assigned the value ‘/content/MyDrive/Data/’
-3. Make sure ‘Data’ folder consists of ‘train.zip’ and ‘driver_imgs_list.csv’ files
-4. Then click on Runtime>Run All. 
+	a. But if required, please open google colab using https://research.google.com/colaboratory/ link. Then upload the DataProcessing.ipynb notebook using the Upload tab.
+	b. Variable ‘filepath’ declared in the notebook needs to be modified to point to the location where the shortcut to ‘Data’ folder has been added, including the Data. F.E: if the shortcut has been added to the path ‘/content/MyDrive’, ‘filepath’ variable must be assigned the value ‘/content/MyDrive/Data/’
+	c. Make sure ‘Data’ folder consists of ‘train.zip’ and ‘driver_imgs_list.csv’ files
+	d. Then click on Runtime>Run All. 
 Please confirm the Google drive access during the run of the notebook.
 
 
