@@ -84,6 +84,10 @@ Note: Would create duplicate folders which are already shared via link as part o
 	3. Implemented GradCam to identify the salient feature from the last layer<br/>
 	4. Test the model on extra set of images collected off internet and personal pictures for scenarios like driving a car for steering is on the right side as opposed to the current dataset where all the cars have left side steering, drivers wearing a mask, mirror reflection of the images etc.,<br/>
 
+## Project Presentation Slides
+
+The link for the slides is: https://docs.google.com/presentation/d/1LruERVS5c2OVvzKaNsaNw-50KAxRS856BeeN8OtRv1U/edit?usp=sharing 
+
 
 ## Experiment Results
 
