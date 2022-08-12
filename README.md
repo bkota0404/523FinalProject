@@ -30,6 +30,7 @@ Link - https://drive.google.com/drive/folders/1aF0ROvRmQAhEhrbpSO7Kgm-hkRSIWJp_?
 	b. Click Add shortcut to Drive.<br/>
 	c. Select 'My Drive'.<br/>
 	d. Click Add shortcut.<br/>
+	e. Update the variable containing the file path. F.E: if the shortcut has been added to the path ‘/content/MyDrive’, variable(f.e: ‘filepath') must be assigned the value ‘/content/MyDrive/Data/’. Details of variable are provided under each file below
 
 
 Note: The shared drive needs to be added as a shortcut to the 'My Drive' folder, otherwise the files will not be able to run. 
@@ -49,7 +50,7 @@ Note: Would create duplicate folders which are already shared via link as part o
 
 #### Model Training and Testing
 
-Note 1: The code saves .pth files of the trained models after every epoch or every twp epochs. Execution might be failed if there is not enough space to save. Can you please make sure there enough space on drive before running the .ipynb files.<br/>
+Note 1: The code saves .pth files of the trained models after every epoch or every two epochs. Execution might fail if there is not enough space to save the models on drive. Can you please make sure there enough space on drive before running the .ipynb files.<br/>
 
 Note 2: The 'Models' folder also contain our saved models with best performance which are used to make predictions on test data. These can be used to load and perform testing on the test datasets from the .ipynb notebooks
 
