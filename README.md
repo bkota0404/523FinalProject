@@ -18,73 +18,71 @@ Datasets: https://drive.google.com/drive/folders/1aF0ROvRmQAhEhrbpSO7Kgm-hkRSIWJ
 
 ## Running the scripts:
  
-1) The github link is private but has been shared with ‘wdqin@bu.edu’ email.
+1) The github link is private but has been shared with ‘wdqin@bu.edu’ email.<br/>
 Please download all the jupyter notebooks from this github link provided in the ‘523FinalProject/Code’ path. 
 
 
-2) The shared drive 'Data' has been shared with the email: ‘wdqin@bu.edu’ as well as the link has been provided and made public to BU emails.
+2) The shared drive 'Data' has been shared with the email: ‘wdqin@bu.edu’ as well as the link has been provided and made public to BU emails.<br/>
 Link - https://drive.google.com/drive/folders/1aF0ROvRmQAhEhrbpSO7Kgm-hkRSIWJp_?usp=sharing
 
 
-Right-click on the shared 'Data' folder.
-Click Add shortcut to Drive.
-Select 'My Drive'.
-Click Add shortcut.
+	a. Right-click on the shared 'Data' folder.<br/>
+	b. Click Add shortcut to Drive.<br/>
+	c. Select 'My Drive'.<br/>
+	d. Click Add shortcut.<br/>
 
 
 Note: The shared drive needs to be added as a shortcut to the 'My Drive' folder, otherwise the files will not be able to run. 
 
-
-3) Run DataProcessing.ipynb
-The main purpose of this file is to extract the images from train.zip and split it into train and test datasets based on individual drivers.
+3) Run .ipynb files
+### Run DataProcessing.ipynb
+The main purpose of this file is to extract the images from train.zip and split it into train and test datasets based on individual drivers.<br/>
 Note: Would create duplicate folders which are already shared via link as part of the dataset. Also, manual intervention might be required incase of folder creation(comments added in the .ipynb file)
 
 
-	a. But if required, please open google colab using https://research.google.com/colaboratory/ link. Then upload the DataProcessing.ipynb notebook using the Upload tab.
-	b. Variable ‘filepath’ declared in the notebook needs to be modified to point to the location where the shortcut to ‘Data’ folder has been added, including the Data. F.E: if the shortcut has been added to the path ‘/content/MyDrive’, ‘filepath’ variable must be assigned the value ‘/content/MyDrive/Data/’
-	c. Make sure ‘Data’ folder consists of ‘train.zip’ and ‘driver_imgs_list.csv’ files
-	d. Then click on Runtime>Run All. 
-Please confirm the Google drive access during the run of the notebook.
+	a. But if required, please open google colab using https://research.google.com/colaboratory/ link. Then upload the DataProcessing.ipynb notebook using the Upload tab.<br/>
+	b. Variable ‘filepath’ declared in the notebook needs to be modified to point to the location where the shortcut to ‘Data’ folder has been added, including the Data. F.E: if the shortcut has been added to the path ‘/content/MyDrive’, ‘filepath’ variable must be assigned the value ‘/content/MyDrive/Data/’<br/>
+	c. Make sure ‘Data’ folder consists of ‘train.zip’ and ‘driver_imgs_list.csv’ files<br/>
+	d. Then click on Runtime>Run All. Please confirm the Google drive access during the run of the notebook.<br/>
 
 
-4) How to run ResNet.ipynb 
+### Run ResNet.ipynb 
 
 
-1. Please open google colab using https://research.google.com/colaboratory/ link. 
-2. Then upload the ResNet.ipynb notebook using the Upload tab.
-3. Then click on Runtime>Run All. Please confirm the Google drive access during the run of the notebook.
+	a. Please open google colab using https://research.google.com/colaboratory/ link. <br/>
+	b. Then upload the ResNet.ipynb notebook using the Upload tab.
+	c. Then click on Runtime>Run All. Please confirm the Google drive access during the run of the notebook.<br/>
 
 
-5) How to run InceptionV3_Pytorch.ipynb 
+### Run InceptionV3_Pytorch.ipynb 
 
 
-1. Please open google colab using https://research.google.com/colaboratory/ link. 
-2. Then upload the InceptionV3_Pytorch.ipynb notebook using the Upload tab.
-3. Then click on Runtime>Run All. Please confirm the Google drive access during the run of the notebook.
+	a. Please open google colab using https://research.google.com/colaboratory/ link. <br/>
+	b. Then upload the InceptionV3_Pytorch.ipynb notebook using the Upload tab.<br/>
+	c. Then click on Runtime>Run All. Please confirm the Google drive access during the run of the notebook.<br/>
 
 
-6) How to run AlexNet.ipynb
-1. Please open google colab using https://research.google.com/colaboratory/ link. 
-2. Then upload the AlexNet.ipynb notebook using the Upload tab.
-3. Update the variable ‘filepath’ with the location containing the Data folder shared. (refer to 2 & 3 for details on how to add the shared folder and modify the path)
-4. Then click on Runtime>Run All. Please confirm the Google drive access during the run of the notebook.
+### How to run AlexNet.ipynb
+	a. Please open google colab using https://research.google.com/colaboratory/ link. <br/>
+	b. Then upload the AlexNet.ipynb notebook using the Upload tab.<br/>
+	c. Update the variable ‘filepath’ with the location containing the Data folder shared. (refer to 2 & 3 for details on how to add the shared folder and modify the path)<br/>
+	d. Then click on Runtime>Run All. Please confirm the Google drive access during the run of the notebook.<br/>
 
-
-7) How to run VGG16.ipynb
+### How to run VGG16.ipynb
         
-1.  Please open google colab using https://research.google.com/colaboratory/ link. 
-2. Then upload the VGG16.ipynb notebook using the Upload tab.
-3. Update the variable ‘filepath’ with the location containing the Data folder shared. (refer to 2 & 3 for details on how to add the shared folder and modify the path)
-4. Then click on Runtime>Run All. Please confirm the Google drive access during the run of the notebook.
+	a.  Please open google colab using https://research.google.com/colaboratory/ link. <br/>
+	b. Then upload the VGG16.ipynb notebook using the Upload tab.<br/>
+	c. Update the variable ‘filepath’ with the location containing the Data folder shared. (refer to 2 & 3 for details on how to add the shared folder and modify the path)<br/>
+	d. Then click on Runtime>Run All. Please confirm the Google drive access during the run of the notebook.<br/>
 
 
 ## Project Implementation
 
 
-1. Reproduced the results for VGG16 and Inception V3(both pytorch and keras) model mentioned in the paper (No code was provided)
-2. Implemented the design with AlexNet and Resnet50 to test the efficiency of the models
-3. Implemented GradCam to identify the salient feature from the last layer
-4. Test the model on extra set of images collected off internet and personal pictures for scenarios like driving a car for steering is on the right side as opposed to the current dataset where all the cars have left side steering, drivers wearing a mask, mirror reflection of the images etc.,
+	1. Reproduced the results for VGG16 and Inception V3(both pytorch and keras) model mentioned in the paper (No code was provided)<br/>
+	2. Implemented the design with AlexNet and Resnet50 to test the efficiency of the models<br/>
+	3. Implemented GradCam to identify the salient feature from the last layer<br/>
+	4. Test the model on extra set of images collected off internet and personal pictures for scenarios like driving a car for steering is on the right side as opposed to the current dataset where all the cars have left side steering, drivers wearing a mask, mirror reflection of the images etc.,<br/>
 
 
 ## Experiment Results
