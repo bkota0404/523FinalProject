@@ -35,6 +35,8 @@ Link - https://drive.google.com/drive/folders/1aF0ROvRmQAhEhrbpSO7Kgm-hkRSIWJp_?
 Note: The shared drive needs to be added as a shortcut to the 'My Drive' folder, otherwise the files will not be able to run. 
 
 3) Run .ipynb files
+ 
+
 #### Run DataProcessing.ipynb
 The main purpose of this file is to extract the images from train.zip and split it into train and test datasets based on individual drivers.<br/>
 Note: Would create duplicate folders which are already shared via link as part of the dataset. Also, manual intervention might be required incase of folder creation(comments added in the .ipynb file)
@@ -44,6 +46,10 @@ Note: Would create duplicate folders which are already shared via link as part o
 	b. Variable ‘filepath’ declared in the notebook needs to be modified to point to the location where the shortcut to ‘Data’ folder has been added, including the Data. F.E: if the shortcut has been added to the path ‘/content/MyDrive’, ‘filepath’ variable must be assigned the value ‘/content/MyDrive/Data/’<br/>
 	c. Make sure ‘Data’ folder consists of ‘train.zip’ and ‘driver_imgs_list.csv’ files<br/>
 	d. Then click on Runtime>Run All. Please confirm the Google drive access during the run of the notebook.<br/>
+
+Note 1: The code saves .pth files of the trained models after every epoch or every twp epochs. Execution might be failed if there is not enough space to save. Can you please make sure there enough space on drive before running the .ipynb files.<br/>
+
+Note 2: The 'Models' folder also contain our saved models with best performance which are used to make predictions on test data. 
 
 
 #### Run ResNet.ipynb 
