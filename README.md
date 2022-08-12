@@ -61,7 +61,7 @@ Note: Would create duplicate folders which are already shared via link as part o
 	b. Then upload the InceptionV3(2).ipynb notebook using the Upload tab.
 	c. Please confirm the Google drive access during the run of the notebook.
 	d. Run one code cell at a time and analyze results.
-	e. The drive link for the data set is provided as a comment.
+	e. The drive link for the data set is provided as a comment. Some of the saved neural nets are also uploaded on the drive.
 	f. Comments are added for each code cell describing what each code cell does.
 
 
