@@ -55,7 +55,7 @@ Note: Would create duplicate folders which are already shared via link as part o
 	d. Then click on Runtime>Run All. Please confirm the Google drive access during the run of the notebook.
 
 
-#### Run InceptionV3(2).ipynb (Keras Implementation)
+#### Run InceptionV3(1).ipynb (Keras Implementation)
 
 
 	a. Please open google colab using https://research.google.com/colaboratory/ link. 
