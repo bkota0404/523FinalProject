@@ -90,6 +90,9 @@ Note: Would create duplicate folders which are already shared via link as part o
 
 Below are the sample outputs from our best model Resnet50
 
+<img src="./Results/Resnet50_output.jpg" title="Prediction of classes on random test images">
+<img src="./Results/Resnet50_GradCam.jpg" title="GradCam Visualizations of test images">
+
 
 
 
