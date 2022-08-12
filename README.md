@@ -54,11 +54,11 @@ Note: Would create duplicate folders which are already shared via link as part o
 	c. Then click on Runtime>Run All. Please confirm the Google drive access during the run of the notebook.
 
 
-#### Run InceptionV3.ipynb (Keras Implementation)
+#### Run InceptionV3(2).ipynb (Keras Implementation)
 
 
 	a. Please open google colab using https://research.google.com/colaboratory/ link. 
-	b. Then upload the InceptionV3.ipynb notebook using the Upload tab.
+	b. Then upload the InceptionV3(2).ipynb notebook using the Upload tab.
 	c. Please confirm the Google drive access during the run of the notebook.
 	d. Run one code cell at a time and analyze results.
 	e. The drive link for the data set is provided as a comment.
