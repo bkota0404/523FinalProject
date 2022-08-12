@@ -98,7 +98,7 @@ Note: Would create duplicate folders which are already shared via link as part o
 <p align="center">GradCam Visualizations of test images</p>
 <br/>
 <br/>
-<img src="./Results/Resnet50_test2_ouput.jpg" title="GradCam Visualizations of test images">
+<img src="./Results/Resnet50_test2_output.jpg" title="GradCam Visualizations of test images">
 <p align="center">Prediction of classes on new set of test images</p>
 
 <br/>
