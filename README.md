@@ -46,7 +46,7 @@ Note: Would create duplicate folders which are already shared via link as part o
 	d. Then click on Runtime>Run All. Please confirm the Google drive access during the run of the notebook.<br/>
 
 
-### Run ResNet.ipynb 
+#### Run ResNet.ipynb 
 
 
 	a. Please open google colab using https://research.google.com/colaboratory/ link.
@@ -54,7 +54,7 @@ Note: Would create duplicate folders which are already shared via link as part o
 	c. Then click on Runtime>Run All. Please confirm the Google drive access during the run of the notebook.
 
 
-### Run InceptionV3_Pytorch.ipynb 
+#### Run InceptionV3_Pytorch.ipynb 
 
 
 	a. Please open google colab using https://research.google.com/colaboratory/ link. 
@@ -62,13 +62,13 @@ Note: Would create duplicate folders which are already shared via link as part o
 	c. Then click on Runtime>Run All. Please confirm the Google drive access during the run of the notebook.
 
 
-### Run AlexNet.ipynb
+#### Run AlexNet.ipynb
 	a. Please open google colab using https://research.google.com/colaboratory/ link.
 	b. Then upload the AlexNet.ipynb notebook using the Upload tab.
 	c. Update the variable ‘filepath’ with the location containing the Data folder shared. (refer to 2 & 3 for details on how to add the shared folder and modify the path)
 	d. Then click on Runtime>Run All. Please confirm the Google drive access during the run of the notebook.
 
-### Run VGG16.ipynb
+#### Run VGG16.ipynb
         
 	a.  Please open google colab using https://research.google.com/colaboratory/ link.
 	b. Then upload the VGG16.ipynb notebook using the Upload tab.
@@ -88,10 +88,24 @@ Note: Would create duplicate folders which are already shared via link as part o
 ## Experiment Results
 
 
-Below are the sample outputs from our best model Resnet50
+####Resnet50:
 
 <img src="./Results/Resnet50_output.jpg" title="Prediction of classes on random test images">
+<p align="center">Prediction of classes on random test images</p>
+<br/>
+<br/>
 <img src="./Results/Resnet50_GradCam.jpg" title="GradCam Visualizations of test images">
+<p align="center">GradCam Visualizations of test images</p>
+<br/>
+<br/>
+<img src="./Results/Resnet50_test2_ouput.jpg" title="GradCam Visualizations of test images">
+<p align="center">Prediction of classes on new set of test images</p>
+
+<br/>
+<br/>
+<img src="./Results/Resnet50_test2_GradCam.jpg" title="GradCam Visualizations of test images">
+<p align="center">GradCam Visualizations of new set of test images</p>
+
 
 
 
