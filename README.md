@@ -49,31 +49,31 @@ Note: Would create duplicate folders which are already shared via link as part o
 ### Run ResNet.ipynb 
 
 
-	a. Please open google colab using https://research.google.com/colaboratory/ link. <br/>
+	a. Please open google colab using https://research.google.com/colaboratory/ link.
 	b. Then upload the ResNet.ipynb notebook using the Upload tab.
-	c. Then click on Runtime>Run All. Please confirm the Google drive access during the run of the notebook.<br/>
+	c. Then click on Runtime>Run All. Please confirm the Google drive access during the run of the notebook.
 
 
 ### Run InceptionV3_Pytorch.ipynb 
 
 
-	a. Please open google colab using https://research.google.com/colaboratory/ link. <br/>
-	b. Then upload the InceptionV3_Pytorch.ipynb notebook using the Upload tab.<br/>
-	c. Then click on Runtime>Run All. Please confirm the Google drive access during the run of the notebook.<br/>
+	a. Please open google colab using https://research.google.com/colaboratory/ link. 
+	b. Then upload the InceptionV3_Pytorch.ipynb notebook using the Upload tab.
+	c. Then click on Runtime>Run All. Please confirm the Google drive access during the run of the notebook.
 
 
-### How to run AlexNet.ipynb
-	a. Please open google colab using https://research.google.com/colaboratory/ link. <br/>
-	b. Then upload the AlexNet.ipynb notebook using the Upload tab.<br/>
-	c. Update the variable ‘filepath’ with the location containing the Data folder shared. (refer to 2 & 3 for details on how to add the shared folder and modify the path)<br/>
-	d. Then click on Runtime>Run All. Please confirm the Google drive access during the run of the notebook.<br/>
+### Run AlexNet.ipynb
+	a. Please open google colab using https://research.google.com/colaboratory/ link.
+	b. Then upload the AlexNet.ipynb notebook using the Upload tab.
+	c. Update the variable ‘filepath’ with the location containing the Data folder shared. (refer to 2 & 3 for details on how to add the shared folder and modify the path)
+	d. Then click on Runtime>Run All. Please confirm the Google drive access during the run of the notebook.
 
-### How to run VGG16.ipynb
+### Run VGG16.ipynb
         
-	a.  Please open google colab using https://research.google.com/colaboratory/ link. <br/>
-	b. Then upload the VGG16.ipynb notebook using the Upload tab.<br/>
-	c. Update the variable ‘filepath’ with the location containing the Data folder shared. (refer to 2 & 3 for details on how to add the shared folder and modify the path)<br/>
-	d. Then click on Runtime>Run All. Please confirm the Google drive access during the run of the notebook.<br/>
+	a.  Please open google colab using https://research.google.com/colaboratory/ link.
+	b. Then upload the VGG16.ipynb notebook using the Upload tab.
+	c. Update the variable ‘filepath’ with the location containing the Data folder shared. (refer to 2 & 3 for details on how to add the shared folder and modify the path)
+	d. Then click on Runtime>Run All. Please confirm the Google drive access during the run of the notebook.
 
 
 ## Project Implementation
