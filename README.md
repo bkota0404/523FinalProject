@@ -59,7 +59,7 @@ Note: Would create duplicate folders which are already shared via link as part o
 
 
 	a. Please open google colab using https://research.google.com/colaboratory/ link. 
-	b. Then upload the InceptionV3(2).ipynb notebook using the Upload tab.
+	b. Then upload the InceptionV3(1).ipynb notebook using the Upload tab.
 	c. Please confirm the Google drive access during the run of the notebook.
 	d. Update the variable ‘filepath’ with the location containing the Data folder shared. (refer to 2 & 3 for details on how to add the shared folder and modify the path)
 	e. Update the variable 'filepath_check' with the location to store the model
