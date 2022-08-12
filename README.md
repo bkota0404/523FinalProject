@@ -79,10 +79,10 @@ Note: Would create duplicate folders which are already shared via link as part o
 ## Project Implementation
 
 
-	1. Reproduced the results for VGG16 and Inception V3(both pytorch and keras) model mentioned in the paper (No code was provided)<br/>
-	2. Implemented the design with AlexNet and Resnet50 to test the efficiency of the models<br/>
-	3. Implemented GradCam to identify the salient feature from the last layer<br/>
-	4. Test the model on extra set of images collected off internet and personal pictures for scenarios like driving a car for steering is on the right side as opposed to the current dataset where all the cars have left side steering, drivers wearing a mask, mirror reflection of the images etc.,<br/>
+	1. Reproduced the results for VGG16 and Inception V3(both pytorch and keras) model mentioned in the paper (No code was provided)
+	2. Implemented the design with AlexNet and Resnet50 to test the efficiency of the models
+	3. Implemented GradCam to identify the salient feature from the last layer
+	4. Test the model on extra set of images collected off internet and personal pictures for scenarios like driving a car for steering is on the right side as opposed to the current dataset where all the cars have left side steering, drivers wearing a mask, mirror reflection of the images etc.,
 
 ## Project Presentation Slides
 
