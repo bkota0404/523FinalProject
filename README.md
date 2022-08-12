@@ -47,9 +47,11 @@ Note: Would create duplicate folders which are already shared via link as part o
 	c. Make sure ‘Data’ folder consists of ‘train.zip’ and ‘driver_imgs_list.csv’ files<br/>
 	d. Then click on Runtime>Run All. Please confirm the Google drive access during the run of the notebook.<br/>
 
+#### Model Training and Testing
+
 Note 1: The code saves .pth files of the trained models after every epoch or every twp epochs. Execution might be failed if there is not enough space to save. Can you please make sure there enough space on drive before running the .ipynb files.<br/>
 
-Note 2: The 'Models' folder also contain our saved models with best performance which are used to make predictions on test data. 
+Note 2: The 'Models' folder also contain our saved models with best performance which are used to make predictions on test data. These can be used to load and perform testing on the test datasets from the .ipynb notebooks
 
 
 #### Run ResNet.ipynb 
