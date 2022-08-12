@@ -8,7 +8,7 @@ The main objective of the project is to detect driver distractions using images 
 The image dataset is publicly available for training on Kaggle: https://www.kaggle.com/competitions/state-farm-distracted-driver-detection
 
 
-As the test dataset labels are not publicly available, we used 10% of the train dataset for testing. To partition the dataset, we tried randomly shuffling the dataset and picking equal proportions of images from the 10 classes used. But to measure the models performance more accurately, we decided to completely remove the images corresponding to two drivers from the training and use for testing (corresponding code can be found in ‘DataProcessing.ipynb’). The train(folder: 'train') and test dataset(folder: 'TestData') along with ‘driver_imgs_list.csv’ can be found on the link below. 
+As the test dataset labels are not publicly available, we used 10% of the train dataset for testing. To partition the dataset, we tried randomly shuffling the dataset and picking equal proportions of images from the 10 classes used. But to measure the models performance more accurately, we decided to completely remove the images corresponding to two drivers from the training and use for testing (corresponding code can be found in ‘DataProcessing.ipynb’). The train(folder: 'train') and test dataset(folder: 'TestData','TestData2') along with ‘driver_imgs_list.csv’ can be found on the link below. 
 
 
 Datasets: https://drive.google.com/drive/folders/1aF0ROvRmQAhEhrbpSO7Kgm-hkRSIWJp_?usp=sharing
