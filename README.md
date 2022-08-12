@@ -61,9 +61,10 @@ Note: Would create duplicate folders which are already shared via link as part o
 	a. Please open google colab using https://research.google.com/colaboratory/ link. 
 	b. Then upload the InceptionV3(2).ipynb notebook using the Upload tab.
 	c. Please confirm the Google drive access during the run of the notebook.
-	d. Run one code cell at a time and analyze results.
-	e. The drive link for the data set is provided as a comment. Some of the saved neural nets are also uploaded on the drive.
-	f. Comments are added for each code cell describing what each code cell does.
+	d. Update the variable ‘filepath’ with the location containing the Data folder shared. (refer to 2 & 3 for details on how to add the shared folder and modify the path)
+	e. Update the variable 'filepath_check' with the location to store the model
+	f. The drive link for the data set is provided as a comment. Some of the saved neural nets are also uploaded on the drive.
+	g. Comments are added for each code cell describing what each code cell does.
 
 
 #### Run InceptionV3_Pytorch.ipynb 
