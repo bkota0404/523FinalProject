@@ -35,7 +35,7 @@ Link - https://drive.google.com/drive/folders/1aF0ROvRmQAhEhrbpSO7Kgm-hkRSIWJp_?
 Note: The shared drive needs to be added as a shortcut to the 'My Drive' folder, otherwise the files will not be able to run. 
 
 3) Run .ipynb files
-### Run DataProcessing.ipynb
+#### Run DataProcessing.ipynb
 The main purpose of this file is to extract the images from train.zip and split it into train and test datasets based on individual drivers.<br/>
 Note: Would create duplicate folders which are already shared via link as part of the dataset. Also, manual intervention might be required incase of folder creation(comments added in the .ipynb file)
 
@@ -88,7 +88,7 @@ Note: Would create duplicate folders which are already shared via link as part o
 ## Experiment Results
 
 
-####Resnet50:
+#### Resnet50:
 
 <img src="./Results/Resnet50_output.jpg" title="Prediction of classes on random test images">
 <p align="center">Prediction of classes on random test images</p>
