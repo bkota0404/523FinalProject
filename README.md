@@ -40,7 +40,7 @@ Note: The shared drive needs to be added as a shortcut to the 'My Drive' folder,
 
 #### Run DataProcessing.ipynb
 The main purpose of this file is to extract the images from train.zip and split it into train and test datasets based on individual drivers.<br/>
-Note: Would create duplicate folders which are already shared via link as part of the dataset. Also, manual intervention might be required incase of folder creation(comments added in the .ipynb file)
+Note: Would overwrite the existing folders which are already shared via link as part of the dataset. Also, manual intervention might be required incase of folder creation(comments added in the .ipynb file)
 
 
 	a. But if required, please open google colab using https://research.google.com/colaboratory/ link. Then upload the DataProcessing.ipynb notebook using the Upload tab.<br/>
